@@ -1,3 +1,10 @@
+@media screen and (max-width:400px) {
+    body{
+        background-color: black;
+    }
+}
+
+@media screen  {
 
 img {
     border-radius: 30px;
@@ -20,7 +27,7 @@ h3{
     text-align: center;
     word-spacing: 6rem;
     line-height: 5px;
-    
+    color: #632929;
 }
 h2{
     text-align: center;
@@ -52,7 +59,7 @@ a{
 #yes{
     display: inline-block;
     padding: 15px 25px;
-    font-size: 7vw;
+    font-size: 3vw;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -60,21 +67,25 @@ a{
     color: #fff;
     background-color: rgb(207, 110, 110);
     border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+    border-radius: 2rem;
+    margin-bottom: 6vw;
+    cursor: url("../images/meatcursor.png"), auto;
+
 }
-#yes:hover {background-color: #3e8e41;}
+#yes:hover {
+    background-color: #3e8e41;
+    cursor: url("../images/meatcursor.png"), auto;
+}
 
 #yes:active {
     background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(5px);
+    cursor: url("../images/meatcursor.png"), auto;
   }
 
 #no{
     display: inline-block;
     padding: 15px 25px;
-    font-size: 7vw;
+    font-size: 3vw;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -82,13 +93,19 @@ a{
     color: #fff;
     background-color: rgb(207, 110, 110);
     border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+    border-radius: 2rem;
+    margin-bottom: 6vw;
+    cursor: url("../images/meatcursor.png"), auto;
 }
-#no:hover {background-color: #d80000;}
+#no:hover {
+    background-color: #d80000;
+    cursor: url("../images/meatcursor.png"), auto;
+}
+
 
 #no:active {
     background-color: #d80000;
-    box-shadow: 0 5px #666;
-    transform: translateY(5px);
+    cursor: url("../images/meatcursor.png"), auto;
   }
+
+}

@@ -3,8 +3,9 @@
 
 
 body {
-    background-color: #ffe598;
+    background-color: #f4a764;
     font-family: "Noto Sans TC", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: url("../images/meatcursor.png"), auto;
 }
 
 a.main:visited, a.main:link  {
@@ -18,10 +19,12 @@ a.main:visited, a.main:link  {
     text-align: center;
     display: inline-block;
     margin-bottom: 1%;
+    cursor: url("../images/meatcursor.png"), auto;
 }
 a.main:hover, a.main:active {
     background-color:  rgb(182, 89, 89);
     color: black;
+    cursor: url("../images/meatcursor.png"), au,
 }
 
 a.home:visited, a.home:link {
@@ -35,9 +38,10 @@ a.home:visited, a.home:link {
     text-align: center;
     display: inline-block;
     margin-bottom: 2%;
-
+    cursor: url("../images/meatcursor.png"), auto;
 }
 a.home:hover, a.home:active {
     background-color: black;
     color: white;
+    cursor: url("../images/meatcursor.png"), auto;
 }

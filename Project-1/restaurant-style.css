@@ -8,6 +8,18 @@ img {
     
 }
 
+h1 {
+  font-size: 6vw;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1vw;
+  margin-top: 8vw;
+}
+
+.bodytext {
+  text-align: center;
+  padding: 1rem;
+}
 /*used W3Schools Example for polaroid photos*/
 
 div.suggestion {
@@ -24,4 +36,10 @@ div.suggestion {
 div.text {
   text-align: center;
   padding: 10px 20px;
+}
+
+h2{
+   font-family: "Reenie Beanie", cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 3rem;
+   line-height: 1vw;
 }
