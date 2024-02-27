@@ -106,6 +106,17 @@ a{
         color: #f4a764;
     }
     h2{
+        color: #f4a764;
+        margin-bottom: 5%;
+    }
+    h3{
         color: antiquewhite;
+        font-weight: 400;
+        word-spacing: 5rem;
+        margin-bottom: 8%;
+    }
+    .question{
+        color: antiquewhite;
+        font-weight: 400;
     }
 }

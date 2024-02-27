@@ -12,6 +12,27 @@ p{
     margin-top: -7%;
   text-align: center;
 }
+.button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 5vw;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: rgb(207, 110, 110);
+  border: none;
+  border-radius: 10vw;
+  margin-bottom: 6vw;
+  margin-left: 36%;
+  cursor: url("../images/meatcursor.png"), auto;
+}
+.button:hover{
+    background-color: #000000;
+    color: antiquewhite;
+}
 
 .pota{
     animation: rotation 30s infinite linear;
@@ -50,3 +71,4 @@ p{
         margin-top: -28%;
     }
   }
+
