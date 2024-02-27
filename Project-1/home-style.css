@@ -102,6 +102,9 @@ a{
   }
 
 @media screen and (max-width: 480px){
+    h1{
+        color: #f4a764;
+    }
     h2{
         color: antiquewhite;
     }
