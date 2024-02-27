@@ -1,0 +1,52 @@
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+p{
+    font-family: "Reenie Beanie", cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vw;
+    padding: 2rem;
+    margin-top: -7%;
+  text-align: center;
+}
+
+.pota{
+    animation: rotation 30s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+@media screen and (max-width: 480px){
+    body{
+        background-color: rgb(96, 40, 39);
+    }  
+    p{
+        color: antiquewhite;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .pota{
+        margin-top: 10%;
+        margin-bottom: -20%;
+    }
+    img {
+        width:40%;
+        margin-left:3%;
+        margin-top: 25%;
+    }
+    p{
+        font-size: 3vw;
+        text-align: left;
+        padding-left: 50%;
+        margin-top: -28%;
+    }
+  }

@@ -45,3 +45,13 @@ a.home:hover, a.home:active {
     color: white;
     cursor: url("../images/meatcursor.png"), auto;
 }
+
+@media screen and (max-width: 480px){
+    body{
+        background-color: rgb(96, 40, 39);
+    }  
+    p{
+        color: antiquewhite;
+    }
+    
+}
