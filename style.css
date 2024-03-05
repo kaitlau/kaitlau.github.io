@@ -1,18 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+
 article,div,nav {
     margin: 5rem auto;
     max-width: 6in;
-    font: 110%/1.5 system-ui
+
 }
 
 h1,h2 {
-    line-height: 1.2;
-    text-wrap: balance
+    font-family: "Libre Barcode 39 Text";
+    font-size: 6vw;
+    line-height: 6rem;
 }
 
 a {
     color: whitesmoke;
     text-decoration: none;
-    border-bottom: solid #d92
+    border-bottom: solid #d92;
 }
 a:hover {
     color: darksalmon;
@@ -22,7 +26,7 @@ blockquote {
     font: italic 95%/1.4 system-ui;
     border-left: solid #d92;
     margin: 2em 0;
-    padding: 0 4%
+    padding: 0 4%;
 }
 
 sup {
@@ -31,5 +35,27 @@ sup {
 
 section {
     font-size: 85%;
-    margin: 2lh 0
+    margin: 2lh 0;
+}
+
+@media screen and (max-width: 1000px){
+    body{
+        background-color: rgb(25, 128, 130);
+        
+    } 
+    h1 {
+        font-family: "Libre Barcode 39 Text";
+        font-size: 10vw;
+        color: black;
+        line-height: 50%1vw;
+    }
+    h2{
+        font-family: "Libre Barcode 39 Text";
+        font-size: 7vw;
+        line-height: 30%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+
 }
