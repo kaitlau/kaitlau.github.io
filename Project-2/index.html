@@ -3,14 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./base.js"></script>
     <title>Molnar Generator</title>
 </head>
 <body>
-    
-<h1>MOLNAR</h1>
-<h2>Generative Art Tool</h2>
+ 
+<div class="header">
+    <h1>MOLNAR</h1>
+    <h2>Generative Art Tool</h2>
+
+    <a href="../index.html" title="Homepage" class="home"><img src="./images/home.png"></a>
+    <a href="https://adpd.dutyfree.school/#" title="Class Website" class="classweb"><img src="./images/earth.png"></a>
+</div>
 
 
+<div>
+    <p id="text1">In the 1960s, she began implementing simple algorithmic programmes by hand, a method referred to as her 'machine imaginaire'. 
+    This assisted her in working systematically through all the possible permutations of a series, following a sequence of 
+    instructions and self-imposed limitations.</p>
+
+    <p id="text2">Using a language of 0s and 1s, she could feed instructions into the computer, which were then outputted to a
+     plotter that produced line drawings with a moving pen. She also explores the slippages between order and chaos, deliberately introducing a '1% disorder' to 
+    allow for a systematically determined factor of chance to influence her works.</p>
+</div>
+
+<div class="contain">
+<div>
+    <h3 class="slide1">Frame Rate</h3>
+    <input type="range"  id="frame-slider" min="1" max="100" value="5" oninput="frameRateChange()">
+    <p>value:<span id="frame-value"></span></p>
+</div>
+
+<div>
+    <h3 class="slide2">Opacity</h3>
+    <input type="range" id="opacity-slider" min="1" max="100" value="5" oninput="opacityChange()">
+    <p><span id="opacity-value"></span></p>
+</div>
+
+<h3 class="b1">Lines</h3>
+<div class="btn">
+    <input type="checkbox" id="togi">
+    <span></span>
+</div>
+<h3 class="b2">Rectangles</h3>
+<div class="btn">
+    <input type="checkbox" id="togii">
+    <span></span>
+</div>
+
+
+<div class="colors">
+    <h3>Color Palette</h3>
+    <input type="color" id="color-i" value="">
+    <input type="color" id="color-ii" value="">
+    <input type="color" id="color-iii" value="">
+</div>
+<div>
+    <input type="color" id="color-iv" value="">
+    <input type="color" id="color-v" value="">
+    <input type="color" id="color-vi" value="">
+</div>
+
+
+<div class="square"></div>
+
+</div>
 
 </body>
 </html>
