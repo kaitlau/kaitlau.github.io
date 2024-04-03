@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+/*MAIN HEAD and Container*/
 .header {
     position: relative;
 }
@@ -9,6 +10,7 @@ h1 {
     font-size: 15vw;
     padding: 20px;
     margin-bottom: 4%;
+    margin-left: 2%;
     line-height: 16%;
     margin-top: 10%;
 }
@@ -20,7 +22,7 @@ h2 {
     font-style: italic;
     margin-top: 0%;
     padding: 10px;
-    margin-left: 2%;
+    margin-left: 3.7%;
     line-height: 5vw;
 }
 
@@ -28,6 +30,7 @@ h2 {
     position: relative;
 
 }
+
 /*LINKS*/
 a {
     float:right;
@@ -38,12 +41,12 @@ img {
 .home {
   position: absolute;
   top: 1%;
-  right:3%;
+  right:3.5%;
 }
 .classweb {
   position: absolute;
   top: 50%;
-  right:3%;
+  right:3.5%;
 }
 
 /*TEXT*/
@@ -119,13 +122,19 @@ input {
     transition: .3s;
   }
 
+#numbers{
+  font-size: 3vw;
+  margin-left: 5%;
+  margin-top:0%;
+  margin-bottom: 6%;
+}
 
 /*SQUARE BORDER*/
 .square {
     position: absolute;
     width: 63vw;
     height: 63vw;
-    background-color: #000000;
+    /*background-color: #000000;*/
     margin-right: 3%;
     margin-bottom: 10%;
     top: 25vw;
@@ -138,7 +147,7 @@ input {
     width: 145px;
     height: 74px;
     margin-right: 10%;
-    margin-left: 1%;
+    margin-left: 5%;
     margin-bottom: 4%;
     border-radius: 40px;
   }
@@ -207,7 +216,25 @@ input {
   transform: translate(63px, 0px);
 }
 
+/*Color Boxes*/
 #color-i,#color-ii,#color-iii,#color-iv,#color-v,#color-vi {
     width:5rem;
     height:5rem;
+}
+.colors {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 2vw;
+  font-weight: 500;
+  margin-left: 3%;
+  line-height: 2%;
+}
+
+/*Music Note*/
+#notes {
+  position: absolute;
+  left: 88%;
+  top: 90%;
+  margin-top: 0%;
+  cursor: pointer;
 }
