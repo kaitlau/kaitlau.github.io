@@ -238,3 +238,18 @@ input {
   margin-top: 0%;
   cursor: pointer;
 }
+
+/*canvas*/
+canvas {
+  position: absolute;
+  width: 63vw;
+  height: 63vw;
+  /*background-color: #000000;*/
+  margin-right: 3%;
+  margin-bottom: 10%;
+  top: 25vw;
+  right: 0%;
+  border: none;
+
+}
+

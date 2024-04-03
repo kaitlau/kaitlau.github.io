@@ -32,13 +32,13 @@
 <div class="contain">
 <div>
     <h3 class="slide1">Frame Rate</h3>
-    <input type="range"  id="frame-slider" min="1" max="100" value="50" oninput="frameRateChange()">
+    <input type="range"  id="frame-slider" min="1" max="100" value="1" >
     <p id="numbers"><span id="frame-value"></span> FPS</p>
 </div>
 
 <div>
     <h3 class="slide2">Opacity</h3>
-    <input type="range" id="opacity-slider" min="1" max="100" value="50" oninput="opacityChange()">
+    <input type="range" id="opacity-slider" min="1" max="100" value="1">
     <p id="numbers"><span id="opacity-value"></span>%</p>
 </div>
 
@@ -56,20 +56,22 @@
 
 <div>
     <h3  class="colors">Color Palette</h3>
-    <input type="color" id="color-i" value="">
-    <input type="color" id="color-ii" value="">
-    <input type="color" id="color-iii" value="">
+    <input type="color" id="color-i" value="#000000">
+    <input type="color" id="color-ii" value="#000000">
+    <input type="color" id="color-iii" value="#000000">
 </div>
 <div>
-    <input type="color" id="color-iv" value="">
-    <input type="color" id="color-v" value="">
-    <input type="color" id="color-vi" value="">
+    <input type="color" id="color-iv" value="#000000">
+    <input type="color" id="color-v" value="#000000">
+    <input type="color" id="color-vi" value="#000000">
 </div>
 
     <!--This is where the P5 instance where happen-->
-    <div class="square" oninput="setup()">
 
-    </div>
+<div  id="sketch" >    
+    <canvas id="canvas-container" class="p5Canvas"></canvas>
+    
+</div>
 
 <img id="notes" src="./images/notes.png">
 <audio id="audio" src="./images/beethoven.mp3"></audio>
