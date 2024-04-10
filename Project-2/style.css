@@ -75,18 +75,18 @@ p{
 .slide1,.slide2 {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
-    font-size: 2vw;
+    font-size: 1.6vw;
     font-weight: 500;
     margin-left: 3%;
-    line-height: 2%;
+    line-height: 0%;
 }
 .b1,.b2 {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
-    font-size: 2vw;
+    font-size: 1.6vw;
     font-weight: 500;
     margin-left: 3%;
-    line-height: 1%;
+    line-height: 0%;
 }
 input {
     --c: rgb(0, 0, 0); /* active color */
@@ -94,7 +94,7 @@ input {
     --h: 50px; /* thumb height */
     --w: 10px; /* thumb width */
     
-    width: 25%;
+    width: 11%;
     height: var(--h); /* needed for Firefox*/
     --_c: color-mix(in srgb, var(--c), #000 var(--p,0%));
     -webkit-appearance :none;
@@ -123,133 +123,114 @@ input {
   }
 
 #numbers{
-  font-size: 3vw;
-  margin-left: 5%;
-  margin-top:0%;
-  margin-bottom: 6%;
+  font-size: 1.6vw;
+  margin-left:3%;
+  margin-top:-2%;
+  margin-bottom: 5%;
+  line-height: 0px;
 }
 
-/*SQUARE BORDER*/
-.square {
-    position: absolute;
-    width: 63vw;
-    height: 63vw;
-    /*background-color: #000000;*/
-    margin-right: 3%;
-    margin-bottom: 10%;
-    top: 25vw;
-    right: 0%;
-  }
+/*buttons*/
 
-/*BUTTON ATTRIBUTES*/
-.btn {
-    position: relative;
-    width: 145px;
-    height: 74px;
-    margin-right: 10%;
-    margin-left: 5%;
-    margin-bottom: 4%;
-    border-radius: 40px;
-  }
-  
-  input[type="checkbox"] {
-    width: 60%;
-    height: 60%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    margin: 0px;
-    cursor: pointer;
-    opacity: 0;
-    z-index: 2;
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 10vw;
+  height: 5vw;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
 
-  }
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
 
-
-.btn span {
+.tog {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  border: 8px solid #b3b3b3;
-  border-color: #b3b3b3;
-  overflow: hidden;
-  background-color: #fff;
-  border-radius: 40px;
-  transition: 0.8s ease border-color;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
-.btn span:before {
+.tog:before {
+  position: absolute;
   content: "";
-  position: absolute;
-  top: -8px;
-  width: 58px;
-  height: 58px;
-  border-width: 8px;
-  border-style: solid;
-  border-color: #b3b3b3;
-  margin-left: 0px;
-  border-radius: 50%;
-  transform: translate(-8px, 0px);
-  transition: 0.4s ease border-radius, 0.4s ease transform, 0.6s ease width,
-    0.6s ease margin-left, 0.8s ease border-color;
+  height:3.9vw;
+  width: 26px;
+  left: 4px;
+  bottom: 10%;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
-.btn input[type="checkbox"]:active + span:before {
-  width: 80px;
-  border-radius: 40px;
+input:checked + .tog {
+  background-color: #000000;
 }
 
-.btn input[type="checkbox"]:checked:active + span:before {
-  margin-left: -22px;
+input:focus + .tog {
+  box-shadow: 0 0 1px #000000;
 }
 
-.btn input[type="checkbox"]:checked + span {
-  border-color: #000;
-}
-
-.btn input[type="checkbox"]:checked + span:before {
-  border-color: #000;
-  transform: translate(63px, 0px);
+input:checked + .tog:before {
+  -webkit-transform: translateX(7rem);
+  -ms-transform: translateX(7rem);
+  transform: translateX(7rem);
 }
 
 /*Color Boxes*/
-#color-i,#color-ii,#color-iii,#color-iv,#color-v,#color-vi {
-    width:5rem;
-    height:5rem;
+#color-i,#color-ii,#color-iii,#color-iv{
+    width: 6.5vw;
+    height:6.5vw;
+    border: .2rem solid black;
+    margin-bottom: 1%;
+    margin-right: 0%;
+    
 }
+#color-ii,#color-iv{
+  margin-left: 1.2%;
+}
+
 .colors {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
-  font-size: 2vw;
+  font-size: 1.6vw;
   font-weight: 500;
   margin-left: 3%;
+  margin-bottom: 2%;
   line-height: 2%;
 }
 
 /*Music Note*/
 #notes {
+  width: 3rem;
   position: absolute;
-  left: 88%;
-  top: 90%;
-  margin-top: 0%;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-bottom: 5%;
   cursor: pointer;
 }
 
 /*canvas*/
+
 canvas {
   position: absolute;
-  width: 63vw;
-  height: 63vw;
   /*background-color: #000000;*/
   margin-right: 3%;
   margin-bottom: 10%;
   top: 25vw;
   right: 0%;
   border: none;
+}
 
+#blank{
+  margin-bottom: 10vw;
 }
 

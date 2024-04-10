@@ -15,7 +15,7 @@
     <h2>Generative Art Tool</h2>
 
     <a href="../index.html" title="Homepage" class="home"><img src="./images/home.png"></a>
-    <a href="https://adpd.dutyfree.school/#" title="Class Website" class="classweb"><img src="./images/earth.png"></a>
+    <a href="./draw.html" title="Code didn't work? DRAW HERE!" class="classweb"><img src="./images/drawing.png"></a>
 </div>
 
 
@@ -31,8 +31,9 @@
 
 <div class="contain">
 <div>
+ 
     <h3 class="slide1">Frame Rate</h3>
-    <input type="range"  id="frame-slider" min="1" max="100" value="1" >
+    <input type="range"  id="frame-slider" min="1" max="60" value="1" >
     <p id="numbers"><span id="frame-value"></span> FPS</p>
 </div>
 
@@ -44,13 +45,17 @@
 
 <h3 class="b1">Lines</h3>
 <div class="btn">
-    <input type="checkbox" id="togi">
-    <span></span>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="tog"></span>
+    </label>
 </div>
 <h3 class="b2">Rectangles</h3>
 <div class="btn">
-    <input type="checkbox" id="togii">
-    <span></span>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="tog"></span>
+    </label>
 </div>
 
 
@@ -58,26 +63,23 @@
     <h3  class="colors">Color Palette</h3>
     <input type="color" id="color-i" value="#000000">
     <input type="color" id="color-ii" value="#000000">
-    <input type="color" id="color-iii" value="#000000">
 </div>
 <div>
+    <input type="color" id="color-iii" value="#000000">
     <input type="color" id="color-iv" value="#000000">
-    <input type="color" id="color-v" value="#000000">
-    <input type="color" id="color-vi" value="#000000">
 </div>
 
     <!--This is where the P5 instance where happen-->
 
 <div  id="sketch" >    
     <canvas id="canvas-container" class="p5Canvas"></canvas>
-    
 </div>
 
 <img id="notes" src="./images/notes.png">
 <audio id="audio" src="./images/beethoven.mp3"></audio>
-
 </div>
 
+<div id="blank"></div>
 
 </body>
 </html>

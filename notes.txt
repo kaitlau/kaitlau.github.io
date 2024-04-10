@@ -1,0 +1,25 @@
+document.querySelectorAll(".myDiv")
+    we have to indicate the specific signifier 
+    Ex: . for div 
+        # for ID 
+        none for a tag
+is a node list, it works similarly to an array
+
+ex: 
+in the HTML
+    <div class = "box"> </div>
+in the Js
+    let boxes = document.querySelectorAll(".box");
+
+let palette = ["color", "color", "color"];
+let opacity = 0;
+
+for (let box of boxes) {
+    box.style.backgroundColor = 
+    palette[Math.floor(Math.random() *palette.lenth)];
+}
+
+This lets the divs with the class box to have random colors based on
+the array
+
+the keyword box would be a local variable because it would be contained within itself
