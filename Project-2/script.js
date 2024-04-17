@@ -37,7 +37,7 @@ let buttTwo = document.getElementById("shapes");
   function setup() {
     width = canvasDiv.offsetWidth;
     height = width;
-   let runCanvas = createCanvas(width/1.28, height/1.5);
+   let runCanvas = createCanvas(width/1.28, height/1.35);
 runCanvas.parent("sketch");
 runCanvas.id("art")
   x = random(width);
@@ -87,7 +87,7 @@ frameRate(int(frameR));
 function windowResized() {
   width = canvasDiv.offsetWidth;
   height = width;
-  resizeCanvas(width/1.28, height/1.5);
+  resizeCanvas(width/1.28, height/1.35);
 
 }
 
@@ -112,4 +112,4 @@ let saves = document.getElementById("saves");
 notes.addEventListener('mouseover', play);
 notes.addEventListener('click', stop);
 
-saves.addEventListener('click',saveDrawing );
+saves.addEventListener('click',saveDrawing);
