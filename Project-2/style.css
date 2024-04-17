@@ -213,9 +213,18 @@ input:checked + .tog:before {
   width: 3rem;
   position: absolute;
   margin-left: 3%;
-  margin-top: 5%;
+  margin-top: 3%;
   padding-bottom: 5%;
   cursor: pointer;
+}
+
+#saves {
+    width: 2.8rem;
+    position: absolute;
+    margin-left: 12.4%;
+    margin-top: 3%;
+    padding-bottom: 5%;
+    cursor: pointer;
 }
 
 /*canvas*/
@@ -233,4 +242,5 @@ canvas {
 #blank{
   margin-bottom: 10vw;
 }
+
 

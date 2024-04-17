@@ -20,11 +20,12 @@ opacity.oninput = function() {
 
 //sketch 
 let canvasDiv = document.getElementById("sketch");
-let frameR = 1; 
-let opac = 1;
+let frameR = 10; 
+let opac = 30;
 let slider;
 let x, y;
 let width, height;
+
 let pickOne = document.getElementById("color-i");
 let pickTwo = document.getElementById("color-ii");
 let pickThree = document.getElementById("color-iii");
@@ -79,6 +80,8 @@ rect(random(0,700),random(0,700),random(300,1000),random(300,1000));
  y = y2;
 
 frameRate(int(frameR));
+
+
 }
 
 function windowResized() {
@@ -87,19 +90,6 @@ function windowResized() {
   resizeCanvas(width/1.28, height/1.5);
 
 }
-
-
-// function test () {
-//   if (buttOne.checked== true) {
-    
-//     console.log('worked');
-//   } else {
-//     console.log('nonono');
-//   }
-// }
-
-// test();
-
 
 //music on image hover
 let audio = document.getElementById("audio");
@@ -112,5 +102,14 @@ function stop() {
   audio.pause();
 }
 
+//saves
+let saves = document.getElementById("saves");
+ function saveDrawing(){
+  save("Molnar.png");
+ }
+
+
 notes.addEventListener('mouseover', play);
 notes.addEventListener('click', stop);
+
+saves.addEventListener('click',saveDrawing );

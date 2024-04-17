@@ -49,8 +49,4 @@ img {
   right:3.5%;
 }
 
-@media screen and (max-width: 500px){
-   canvas{
-    width: 450px;
-   }
-}
+
