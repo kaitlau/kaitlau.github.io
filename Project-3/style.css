@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Mansalva&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body, html {
+    background-color: black;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+#video-container {
+    height: 100%;
+    margin-top: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 7.6%;
+}
+
+h3{
+    color: beige;
+    font-family: "Mansalva", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    line-height: 1%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+
+}
+
+  
+  #black {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+  }
+  
+  #dvd {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    width: 100px;
+    mask: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg");
+    -webkit-mask: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg");
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+  }
+  
