@@ -10,12 +10,12 @@ body, html {
 }
 #video-container {
     height: 100%;
-    margin-top: 7vw;
+    margin-top: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 1%;
+  
 }
 
 h3{
@@ -57,7 +57,7 @@ h3{
     font-style: normal;
     font-size: 2vw;
     line-height: 1%;
-    margin-top: 2%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    padding-bottom: 10%;
     text-align: center;
   }
