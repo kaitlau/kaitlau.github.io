@@ -2,11 +2,12 @@
 
 body, html {
     background-color: black;
-    background-image: url("./imgs/9224941.jpg");
+    
     margin: 0;
     box-sizing: border-box;
     overflow: hidden;
-   background-size: cover;
+   background-size: 100%;
+
 }
 #video-container {
     height: 100%;
@@ -19,7 +20,7 @@ body, html {
 }
 
 h3{
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: "Mansalva", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -51,7 +52,7 @@ h3{
   }
   
   h5{
-    color: black;
+    color: darkgray;
     font-family: "Mansalva", sans-serif;
     font-weight: 400;
     font-style: normal;
