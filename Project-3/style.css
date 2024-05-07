@@ -2,10 +2,11 @@
 
 body, html {
     background-color: black;
+    background-image: url("./imgs/9224941.jpg");
     margin: 0;
     box-sizing: border-box;
     overflow: hidden;
-   
+   background-size: cover;
 }
 #video-container {
     height: 100%;
@@ -14,11 +15,11 @@ body, html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 7.6%;
+    margin-bottom: 1%;
 }
 
 h3{
-    color: beige;
+    color: black;
     font-family: "Mansalva", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -30,7 +31,6 @@ h3{
 
 }
 
-  
   #black {
     height: 100%;
     width: 100%;
@@ -50,3 +50,14 @@ h3{
     background-position: center;
   }
   
+  h5{
+    color: black;
+    font-family: "Mansalva", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+    line-height: 1%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
