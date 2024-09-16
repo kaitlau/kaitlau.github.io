@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*MAIN HEAD and Container*/
+.header {
+    position: relative;
+}
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15vw;
+    padding: 20px;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    line-height: 16%;
+    margin-top: 10%;
+}
+h2 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 6.4vw;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 0%;
+    padding: 10px;
+    margin-left: 3.7%;
+    line-height: 5vw;
+}
+
+.contain{
+    position: relative;
+
+}
+
+/*LINKS*/
+a {
+    float:right;
+}
+img {
+    width: 7vw;
+}
+.home {
+  position: absolute;
+  top: 1%;
+  right:3.5%;
+}
+.classweb {
+  position: absolute;
+  top: 50%;
+  right:3.5%;
+}
+
+

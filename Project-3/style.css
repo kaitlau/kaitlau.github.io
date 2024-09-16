@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Mansalva&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body, html {
-    background-color: black;
+    background-color: rgb(1, 1, 1);
     
     margin: 0;
     box-sizing: border-box;
@@ -42,13 +42,14 @@ h3{
     position: absolute;
     left: 0px;
     top: 0px;
-    height: 50px;
-    width: 100px;
+    height: 40px;
+    width: 80px;
     mask: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg");
     -webkit-mask: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg");
     background-repeat: no-repeat;
     background-size: 75px;
     background-position: center;
+    opacity: 50%;
   }
   
   h5{
