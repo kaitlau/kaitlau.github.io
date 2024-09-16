@@ -1,7 +1,7 @@
 let lineColor;
 
 function setup() {
-  createCanvas(650, 650);
+  createCanvas(600, 700);
 
   lineColor = color(0);
 
